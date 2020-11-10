@@ -9,8 +9,8 @@ def main():
     parser.add_argument('--unit_grid', type=int, help='矩形组件分辨率')
     parser.add_argument('--unit_n', type=int, help='组件数')
     parser.add_argument('--positions', type=int, nargs='*', help='矩形组件分辨率')
-    parser.add_argument('-o', '--outdir', type=str, default='example_dir', help='输出目录')
-    parser.add_argument('--file_name', type=str, default='example', help='输出文件名')
+    parser.add_argument('-o', '--outdir', type=str, default='example_dir', help='输出目录呀')
+    parser.add_argument('--file_name', type=str, default='example', help='输出文件名哟')
     args = parser.parse_args()
 
     if not os.path.exists(args.outdir):
