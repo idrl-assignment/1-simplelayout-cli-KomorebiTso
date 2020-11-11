@@ -4,7 +4,7 @@ import argparse
 
 
 def main():
-    parser = argparse.ArgumentParser(description='list the parameter', epilog='Enjoy the program! :)')
+    parser = argparse.ArgumentParser(description='list the parameter')
     parser.add_argument('--board_grid', type=int, help='布局板分辨率')
     parser.add_argument('--unit_grid', type=int, help='矩形组件分辨率')
     parser.add_argument('--unit_n', type=int, help='组件数')
